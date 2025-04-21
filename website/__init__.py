@@ -1,0 +1,1 @@
+#když mám ve složce __init__.py, tak se složka bere jako modul(package/balíček)
