@@ -6,4 +6,6 @@ def create_app():
     app = Flask(__name__)
     app.config['SECRET_KEY'] = 'mysecretkey'
 
+    from .views import views
+
     return app
